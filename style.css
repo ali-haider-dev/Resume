@@ -1,0 +1,138 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body{
+    background-color: rgb(54, 53, 67);
+  
+}
+.navbar-brand{
+    margin-right: 40px !important;
+}
+hr{
+    background-color:rgb(255, 255, 0)!important;
+    height: 5px !important;
+    width: 120px;
+}
+.navbar{
+    padding:0 30px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 53, 67);
+    height: 350px;
+    width: 100%;
+ margin: 30px 0 0 0;
+    padding:20px 50px;
+}
+.image-container{
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(41, 41, 53);
+    width: 400px;
+    height: 300px;
+z-index: 9999;
+}
+.discription{
+    width: 200px;
+}
+.img{
+  position: absolute;
+  top: 0;right: 50px;bottom: 0;
+    width: 300px;
+    height: 290px;
+ 
+}
+.icon{
+    color: yellow;
+}
+.socials{
+    width: 200px;
+    display: flex;
+justify-content: space-between;
+    
+}
+.mid-icons{
+    position: absolute;
+    top: 65%;left: 13%; right:15%;
+     display: flex;
+     justify-content: space-evenly;
+     background-color:rgb(65, 62, 81);
+     padding: 15px;
+     width: 65%;
+     z-index: 9999;
+}
+
+.mid-img{
+    background-color:rgb(40, 40, 52);
+    width: 150px;
+    height: 50px;
+    box-shadow: 3px 3px 3px 3px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.section2{
+    width: 100%;
+    height: 635px;
+    background-color:rgb(40, 40, 52);
+    padding-left:5% ;
+    display: flex;
+}
+.intro {
+    width: 600px;
+}
+.intro > h1{
+    padding-top: 100px;
+    width: 400px;
+    font-weight: 700;
+    word-spacing: 8px;
+    font-size: 35px;
+}
+.intro > p{
+   
+    width: 300px;
+    margin-top: 15px;
+    word-spacing: 8px;
+    
+}
+.projects > h1{
+    margin-top: 3%;
+    color: yellow;
+}
+.project-section{
+    width: 400px;
+}
+.project-image{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.work-details{
+    margin-top: 70px;
+  width: 500px;
+}
+.type{
+    display: flex;
+    align-items: center;
+   
+}
+.type >p {
+    margin-left: 33px;
+    font-size: 18px;
+}
+.type >p>span{
+    font-size: small;
+}
+.more-detailsBtn{
+    color: yellow;
+}
+.work-details > hr{
+    width: 90%;
+}
