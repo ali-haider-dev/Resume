@@ -52,7 +52,7 @@
   z-index: 0.1;
   justify-content: center;
   align-items: center;
- 
+ margin-top: 18%;
 }
 .discription{
     width: 230px;
@@ -62,11 +62,11 @@
 }
 .img{
     position: absolute;
-    
-    left: 8%;
+   top: -12%;
+   left: 5%;
     width: 400px;
-    height: 400px;
-  
+    height: 500px;
+  object-fit: contain;
 }
 .icon{
     color: yellow;
