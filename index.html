@@ -24,7 +24,7 @@
   <body>
     <!-- Navbar -->
     <div class="body">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">😀 Ali haider</a>
           <button
@@ -54,12 +54,34 @@
               </li>
             </ul>
           </div>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav nav-right">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-globe"></i>
+                  </a>
+  
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-bars"></i>
+                </a>
+              </li>
+             
+            </ul>
+          </div>
         </div>
       </nav>
 
       <!-- jumbotron -->
       <div class="main-section">
-        <div style="display: flex; justify-content: space-between">
+        <div class="introduction">
           <div>
             <h1>
               <span style="color: grey"> I'm</span> <br />
@@ -82,13 +104,13 @@
           </div>
         </div>
 
-        <div class="text-white">
+        <div class="text-white servives">
           <h5>Services</h5>
           <p class="w-50">
             Let's build quality products in programming and design with my
             services
           </p>
-          <p class="icon">show more -></p>
+          <p class="icon">show more <i class="fas fa-arrow-right"></i></p>
           <div class="socials">
             <p><i class="fa-brands fa-facebook-square fa-xl"></i></p>
             <p><i class="fa-brands fa-pinterest-square fa-xl"></i></p>
@@ -152,52 +174,92 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-           
-        
           "
         >
           <div class="text-white type">
-            <img class="project-image" src="./assets/ux_ui-01-3.jpg" alt="Thumbnail" />
-           <p>UX/UI design <br> <span>117 projects</span> </p>
+            <img
+              class="project-image"
+              src="./assets/ux_ui-01-3.jpg"
+              alt="Thumbnail"
+            />
+            <p>
+              UX/UI design <br />
+              <span>117 projects</span>
+            </p>
           </div>
-          <div class="more-detailsBtn">=></div>
-        
+          <div class="more-detailsBtn"><i class="fas fa-arrow-right"></i></div>
+
         </div>
         <hr>
         <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-        
-         
-        "
-      >
-        <div class="text-white type">
-          <img class="project-image" src="./assets/frontend.png" alt="Thumbnail" />
-         <p>FrontEnd Develop <br> <span>84 projects</span> </p>
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <div class="text-white type">
+            <img
+              class="project-image"
+              src="./assets/frontend.png"
+              alt="Thumbnail"
+            />
+            <p>
+              FrontEnd Develop <br />
+              <span>84 projects</span>
+            </p>
+          </div>
+          <div class="more-detailsBtn"><i class="fas fa-arrow-right"></i></div>
         </div>
-        <div class="more-detailsBtn">=></div>
-       
+<hr>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <div class="text-white type">
+            <img
+              class="project-image"
+              src="./assets/mobile.png"
+              alt="Thumbnail"
+            />
+            <p>
+              MobileApp Develop Develop <br />
+              <span>32 projects</span>
+            </p>
+          </div>
+          <div class="more-detailsBtn"><i class="fas fa-arrow-right"></i></div>
+        </div>
+        <hr>
       </div>
-      <hr>
-      <div
-      style="
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-     
-       
-      "
-    >
-      <div class="text-white type">
-        <img class="project-image" src="./assets/mobile.png" alt="Thumbnail" />
-       <p>MobileApp Develop Develop <br> <span>32 projects</span> </p>
-      </div>
-      <div class="more-detailsBtn">=></div>
-      
     </div>
-    <hr>
+    <div class="footer">
+      <div class="footer-box1">
+        <i class="fas fa-paint-brush icon"></i> <br />
+        <h2>UI/UX Design</h2>
+        <p>
+          Create a beautiful and usefull UI display for ease of use of the
+          application for user
+        </p>
+      </div>
+      <div class="footer-box2">
+        <i class="fas fa-computer icon"></i> <br />
+        <h2>Web Programming</h2>
+        <p>
+          Build a quality website with the best technologies and optimization on search engines
+        </p>
+      </div>
+      <div class="footer-box3">
+        <div style="margin-left: 3%;">
+           <i class="fas fa-mobile-phone icon"></i>  <br />
+          <h2>Mobile Development</h2>
+          <p>
+            Create an app for your own bussiness for a more professional bussiness performance
+          </p>
+        </div>
+        
       </div>
     </div>
   </body>

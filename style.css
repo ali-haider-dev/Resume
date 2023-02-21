@@ -9,44 +9,64 @@
 .navbar-brand{
     margin-right: 40px !important;
 }
-hr{
+.introduction>hr{
     background-color:rgb(255, 255, 0)!important;
     height: 5px !important;
-    width: 120px;
+    width: 200px;
 }
 .navbar{
     padding:0 30px;
+    
+}
+.nav-right i{
+  margin: 0 7px;
 }
 .name{
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 3rem;
+    width: 300px;
+    z-index: 4;
 }
 .main-section{
+    align-items: center;
     display: flex;
     justify-content: space-between;
     background-color: rgb(54, 53, 67);
     height: 350px;
     width: 100%;
- margin: 30px 0 0 0;
+ margin: 3rem 0 0 0;
     padding:20px 50px;
 }
+.introduction{
+    display: flex;
+   align-items: center;
+ 
+  
+}
 .image-container{
-    position: relative;
+   position: relative;
     border-radius: 50%;
     background-color: rgb(41, 41, 53);
-    width: 400px;
-    height: 300px;
-z-index: 9999;
+    width: 450px;
+    height: 420px;
+  z-index: 0.1;
+  justify-content: center;
+  align-items: center;
+ 
 }
 .discription{
-    width: 200px;
+    width: 230px;
+}
+.services{
+    z-index: 4;
 }
 .img{
-  position: absolute;
-  top: 0;right: 50px;bottom: 0;
-    width: 300px;
-    height: 290px;
- 
+    position: absolute;
+    
+    left: 8%;
+    width: 400px;
+    height: 400px;
+  
 }
 .icon{
     color: yellow;
@@ -80,7 +100,7 @@ justify-content: space-between;
 }
 .section2{
     width: 100%;
-    height: 635px;
+    height: 70%;
     background-color:rgb(40, 40, 52);
     padding-left:5% ;
     display: flex;
@@ -135,4 +155,46 @@ justify-content: space-between;
 }
 .work-details > hr{
     width: 90%;
+    color: grey;
+    margin-top: -12px ;
+}
+
+.footer{
+    background-color:rgb(40, 40, 52);
+    height: 40vh;
+    color: white;
+   display: flex;
+   justify-content: space-evenly;
+   line-height: 1;
+}
+.footer-box1{
+    padding: 10px;
+    width: 27%;
+    height: 200px;
+    background-color:rgb(65, 62, 81);
+}
+.footer-box2{
+    padding: 10px;
+    width: 25%;
+    height: 200px;
+    background-color:rgb(65, 62, 81);
+   
+}.footer-box3{
+    padding: 10px;
+    width: 25%;
+    height: 200px;
+    background-color:rgb(65, 62, 81);
+    margin-right: 35px;
+}
+.footer .icon{
+    background-color:rgb(40, 40, 52);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+.footer p{
+    width: 300px;
 }
